@@ -106,6 +106,7 @@ nav ul li {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-color);
+    background-color: var(--bg-color);
 }
 
 .bio h2 {
@@ -132,5 +133,29 @@ nav ul li {
 .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
-    
+}
+
+.skills {
+    max-width: 69.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top:  2.5rem;
+}
+
+.skills h2 {
+    margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+    padding: 2rem;
+}
+
+.icon-card {
+    width: 10.875rem;
+    height: 10.25rem;
+    background-color: var(--bg-color);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
 }
