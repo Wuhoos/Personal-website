@@ -237,11 +237,17 @@ nav ul li {
 }
 
 .contact-form-container {
-    max-width: 40.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.3rem; /* Adjust gap as needed */
+    max-width: 80%;
     margin: 0 auto;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    box-shadow: 0 3px 10px var(--primary-color);
+    margin: 2rem auto;
+    background-color: var(--bg-color);
 }
 
 .contact-form-container label {
@@ -289,3 +295,14 @@ nav ul li {
     cursor: pointer;   
 }
 
+.social img {
+    width: 150px; 
+    height: 150px; 
+}
+
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
