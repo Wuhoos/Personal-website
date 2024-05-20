@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WenJun Wu | Software Developer</title>
+    <title>WenJun (David) Wu | Software Developer</title>
 </head>
 <body>
     <nav class="navigation">
-        <h1>WenJun Wu | Software Developer</h1>
+        <h1>David WenJun Wu | Software Developer</h1>
         <ul class="navigation">
             <li><a href="#about" class="nav-link">About Me</a></li>
             <li><a href="#skills" class="nav-link">Skills</a></li>
@@ -187,23 +187,25 @@
                 </form>
             </div>
         </div>
+        <div class="social">
+            <a href="https://github.com/Wuhoos" target="_blank"
+            ><img
+            src="images/icons8-github-64.png"
+            alt="github"
+            loading="lazy"
+            class="social-icon"
+            ></a>
+            <a href="https://www.linkedin.com/in/david-wu3298/" target="_blank"
+            ><img
+            src="images/icons8-linkedin-60.png"
+            alt="linkedin"
+            loading="lazy"
+            class="social-icon"
+            ></a>
+        </div>
     </section>
-    <div class="social">
-        <a href="https://github.com/Wuhoos" target="_blank"
-        ><img
-        src="images/icons8-github-64.png"
-        alt="github"
-        loading="lazy"
-        class="social-icon"
-        ></a>
-        <a href="https://www.linkedin.com/in/david-wu3298/" target="_blank"
-        ><img
-        src="images/icons8-linkedin-60.png"
-        alt="linkedin"
-        loading="lazy"
-        class="social-icon"
-        ></a>
-    </div>
+
+
     <footer>
         <p class="copy-right">&copy;Copyright 2021</p>
         <p class="copy-right">
@@ -211,5 +213,26 @@
             <a href="https://www.linkedin.com/in/david-wu3298/" target="_blank">WenJun Wu</a>
         </p>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const scrollUp = document.getElementById('scroll-up')
+
+            if (scrollUp) {
+                scrollUp.addEventListener('click', ()=> {
+                    window.scrollTo({
+                        top: 0,
+                        left: 0,
+                        behavior: 'smooth',
+                    })
+                })
+            }
+        })
+    </script>
+    <i class="scroll-up" id="scroll-up">
+        <img 
+        src="images/icons8-up-arrow.gif"
+        class="scroll-up-arrow"
+        alt="scroll-up"/>
+    </i>
 </body>
 </html>
